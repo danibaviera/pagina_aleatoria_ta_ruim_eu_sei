@@ -1,0 +1,162 @@
+" {
+    padding:0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul {
+    width: 10%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    color: #fff;
+}
+
+main {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.div-main-foto{
+    width: 45%;
+    height: 600px;
+    background-color: blueviolet;
+    margin: 5px;
+}
+
+.img-main-foto {
+    width: 100%;
+    height: 600px;
+}
+
+.div-main-descricao{
+    width: 40%;
+    height: 580px;
+    background-color: blueviolet;
+    margin: 5px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    color: #fff;
+}
+
+section{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    color:#fff;
+}
+
+h2{
+    color:blueviolet;
+}
+
+.div-section-conteudo{
+    width: 80%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.div-section-card{
+    width: 70%;
+    height: 80px;
+    border-style: groove;
+    border-color: #fff;
+    border-radius: 40px;
+    margin: 10px;
+    padding: 15px;
+    color: blueviolet;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-footer{
+    width: 80%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media only screen and (max-width:395px){
+
+    body{
+        background-color: #fff;
+    }
+    main {
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .div-main-foto{
+        width: 300px;
+        height: 35px;
+        margin: 5px;
+    }
+
+    .div-main-foto{
+        width: 300px;
+        height: 350px;
+    }
+
+    .div-main-descricao{
+        width: 300px;
+        height: 350px;
+        background-color: blueviolet;
+        margin: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+        color: #fff;
+    }
+
+    .div-section-conteudo {
+        font-size: xx-small;
+    }
+
+}
